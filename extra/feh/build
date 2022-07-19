@@ -5,7 +5,7 @@
     --exif=1 \
     --help=1 \
     --inotify=1 \
-    --magic=1 \
+    --magic=1
 
 make
 make DESTDIR="$1" install
