@@ -1,6 +1,4 @@
 #!/bin/sh
 
-# Manually rename the files
-mv x86_64-linux-ghcup-0.1.17.8 ghcup
-
-install -Dm755 ghcup "$1/usr/bin"
+install -Dm755 x86_64-linux-ghcup-0.1.17.8 \
+    "$1/usr/bin/ghcup"
