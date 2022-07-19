@@ -19,9 +19,10 @@ ________________________________________________________________________________
 [00] Repositories
 ________________________________________________________________________________
 
-* core ---------- Override packages from kiss-community
-* extra --------- Extra packages ( bloated / not )
+* core ---------- Core packages ( symlink kiss-xorg/core )
+* extra --------- Optional packages ( symlink kiss-xorg/community & extra )
 * testing ------- Not stable build
+* bin ----------- Binary Executable packages
 
 [01] Packages
 ________________________________________________________________________________
