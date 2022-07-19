@@ -26,6 +26,93 @@ ________________________________________________________________________________
 [01] Packages
 ________________________________________________________________________________
 
-[Core]                   [Extra]                      [Testing]
+[Core] -------------------------------------------------------------------------
 
-@/mesa                     ---                        @/mesa
+libfontenc     libXrender           xev
+libICE         libXScrnSaver        xf86-input-libinput
+libSM          libxshmfence         xf86-video-amdgpu
+libX11         libXslt              xf86-video-ati
+libXau         libXt                xf86-video-intel
+libxcb         libXtst              xf86-video-nouveau
+libXcomposite  libXxf86vm           xf86-video-vesa
+libXcursor     mesa                 xinit
+libxcvt        mkfontscale          xinput
+libXdamage     setxkbmap            xkbcomp
+libXdmcp       sowm                 xkeyboard-config
+libXext        st                   xorgproto
+libXfixes      tinyx                xorg-server
+libXfont       xauth                xorg-util-macros
+libXfont2      xbitmaps             xprop
+libXft         xcb-proto            xrandr
+libXi          xcb-util             xrdb
+libXinerama    xcb-util-cursor      xrectsel
+libxkbfile     xcb-util-image       xset
+libXmeta       xcb-util-keysyms     xsetroot
+libXmu         xcb-util-renderutil  xtrans
+libXpresent    xcb-util-wm
+libXrandr      xdpyinfo
+
+[Extra] ------------------------------------------------------------------------
+
+2bwm                   graphviz          poppler-data
+9wm                    gtk+3             potrace
+abiword                gtkmm3            qt5
+ace-of-penguins        herbe             qt5-x11extras
+alacritty              herbstluftwm      rxvt-unicode
+alttab-git             hsetroot          schismtracker
+appstream-glib         i3                sct
+atk                    imlib2            sent
+atkmm                  inkscape          skippy-xd-git
+autorandr              jansson           slock
+azpainter              jwm               slock-paranoid-git
+babl                   lemonbar          slop
+bdfedit                libdrm            solvespace
+berry                  libepoxy          spectrwm
+brownout               liberation-fonts  spice-protocol
+bspwm                  libevdev          stalonetray
+cairo                  libexecinfo       supertuxkart
+cairomm                libexif           surf
+chromium               libgsf            svkbd
+ctwm                   libinput          sx
+cwm                    libmypaint        sxhkd
+dillo                  libpciaccess      sxiv
+dmenu                  libptytty         tabbed
+dosbox                 librewolf         tcl
+double-conversion      librsvg           tiff
+doxygen                libsigc++         tinywm
+dragon-git             libsoup           tk
+dwm                    libsoup3          tkdiff
+dzen                   libspectre        vimb
+emacs                  libtasn1          vimb-git
+emacs-alpha            libva             webkit2gtk
+exiv2                  libva-utils       windowmaker
+farbfeld               libXaw            wine
+ffmpeg                 libxaw3d          winetricks
+firefox                libXft-bgra-git   wv
+fltk                   libxkbcommon      wyeb
+frankenwm              libXpm            x11fs
+freeglut               lxappearance      x11vnc
+freetype-harfbuzz      maim              xbanish
+fribidi                mesa              xbill
+fvwm                   mplayer           xcb-util-xrm
+gcr                    mpv               xclip
+gdk-pixbuf             mtdev             xcompmgr
+gegl                   mypaint-brushes   xdo
+gexiv2                 neon              xdotool
+giflib                 netsurf-gtk3      xf86-video-fbdev
+gimp                   nsxiv             xf86-video-qxl
+glew                   openal-soft       xf86-video-vmware
+glibmm                 otf2bdf           xhost
+glib-networking        p11-kit           xkill
+glmark2                palemoon          xlennart-git
+glu                    pango             xmahjongg
+gnuplot                pangomm           xmodmap
+gobject-introspection  perl-netsurf      xnotify
+godot                  picom             xrandr-invert-colors
+goffice                picom-git         xsel
+gperf                  pixman            xssstate
+grabc                  polybar           xwm
+
+[Bin] --------------------------------------------------------------------------
+
+ghcup-bin
