@@ -55,66 +55,51 @@ libXrandr      xdpyinfo
 
 [Extra] ------------------------------------------------------------------------
 
-2bwm                   graphviz          potrace
-9wm                    gtk+3             qt5
-abiword                gtkmm3            qt5-x11extras
-ace-of-penguins        herbe             rxvt-unicode
-alacritty              herbstluftwm      schismtracker
-alttab-git             hsetroot          sct
-appstream-glib         i3                sent
-atk                    imlib2            skippy-xd-git
-atkmm                  inkscape          slock
-autorandr              jansson           slock-paranoid-git
-azpainter              jwm               slop
-babl                   lemonbar          solvespace
-bdfedit                libdrm            spectrwm
-berry                  libepoxy          spice-protocol
-brownout               liberation-fonts  stalonetray
-bspwm                  libevdev          supertuxkart
-cairo                  libexecinfo       surf
-cairomm                libexif           svkbd
-chromium               libgsf            sx
-ctwm                   libinput          sxhkd
-cwm                    libmypaint        sxiv
-dillo                  libpciaccess      tabbed
-dmenu                  libptytty         tcl
-dosbox                 librewolf         tiff
-double-conversion      librsvg           tinywm
-doxygen                libsigc++         tk
-dragon-git             libsoup           tkdiff
-dwm                    libsoup3          vimb
-dzen                   libspectre        vimb-git
-emacs                  libtasn1          webkit2gtk
-emacs-alpha            libva             windowmaker
-exiv2                  libva-utils       wine
-farbfeld               libXaw            winetricks
-feh                    libxaw3d          wv
-ffmpeg                 libXft-bgra-git   wyeb
-firefox                libxkbcommon      x11fs
-fltk                   libXpm            x11vnc
-frankenwm              lxappearance      xbanish
-freeglut               maim              xbill
-freetype-harfbuzz      mesa              xcb-util-xrm
-fribidi                mplayer           xclip
-fvwm                   mpv               xcompmgr
-gcr                    mtdev             xdo
-gdk-pixbuf             mypaint-brushes   xdotool
-gegl                   neon              xf86-video-fbdev
-gexiv2                 netsurf-gtk3      xf86-video-qxl
-giflib                 nsxiv             xf86-video-vmware
-gimp                   openal-soft       xhost
-glew                   otf2bdf           xkill
-glibmm                 p11-kit           xlennart-git
-glib-networking        palemoon          xmahjongg
-glmark2                pango             xmodmap
-glu                    pangomm           xnotify
-gnuplot                perl-netsurf      xrandr-invert-colors
-gobject-introspection  picom             xsel
-godot                  picom-git         xssstate
-goffice                pixman            xwm
-gperf                  polybar
-grabc                  poppler-data
+[2bwm                   gexiv2                 libsigc++              spice-protocol
+9wm                    ghc                    libsoup                stalonetray
+abiword                ghc-bootstrap          libsoup3               supertuxkart
+alacritty              giflib                 libspectre             surf
+alttab-git             gimp                   libtasn1               svkbd
+appstream-glib         glew                   libva                  sx
+atk                    glib-networking        libva-utils            sxhkd
+atkmm                  glibmm                 libxaw3d               sxiv
+autorandr              glmark2                libxkbcommon           tabbed
+azpainter              glu                    lxappearance           tcl
+babl                   gnuplot                maim                   tiff
+bdfedit                gobject-introspection  mesa                   tinywm
+berry                  godot                  mplayer                tk
+brownout               goffice                mpv                    tkdiff
+bspwm                  gperf                  mtdev                  vimb
+cairo                  grabc                  mypaint-brushes        vimb-git
+cairomm                graphviz               neon                   webkit2gtk
+chromium               gtk+3                  netsurf-gtk3           windowmaker
+ctwm                   gtkmm3                 nsxiv                  wine
+cwm                    herbe                  openal-soft            winetricks
+dillo                  herbstluftwm           otf2bdf                wv
+dmenu                  hsetroot               p11-kit                wyeb
+dosbox                 i3                     palemoon               x11fs
+double-conversion      imlib2                 pango                  x11vnc
+doxygen                inkscape               pangomm                xbanish
+dragon-git             jansson                perl-netsurf           xbill
+dwm                    jwm                    picom                  xcb-util-xrm
+dzen                   lemonbar               picom-git              xclip
+emacs                  libXaw                 pixman                 xcompmgr
+emacs-alpha            libXft-bgra-git        polybar                xdo
+exiv2                  libXpm                 poppler-data           xdotool
+farbfeld               libdrm                 potrace                xf86-video-fbdev
+feh                    libepoxy               qt5                    xf86-video-qxl
+ffmpeg                 liberation-fonts       qt5-x11extras          xf86-video-vmware
+firefox                libevdev               rxvt-unicode           xhost
+fltk                   libexecinfo            schismtracker          xkill
+frankenwm              libexif                sct                    xlennart-git
+freeglut               libgsf                 sent                   xmodmap
+freetype-harfbuzz      libinput               skippy-xd-git          xnotify
+fribidi                libmypaint             slock                  xrandr-invert-colors
+fvwm                   libpciaccess           slock-paranoid-git     xsel
+gcr                    libptytty              slop                   xssstate
+gdk-pixbuf             librewolf              solvespace             xwm
+gegl                   librsvg                spectrwm
 
-[Bin] --------------------------------------------------------------------------
+Bin] --------------------------------------------------------------------------
 
-ghcup-bin
+ghcup-bin  opam-bin
