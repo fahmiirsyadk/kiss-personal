@@ -1,0 +1,4 @@
+#!/bin/sh
+
+install -Dm755 opam-VERSION-x86_64-linux \
+    "$1/usr/bin/opam"
