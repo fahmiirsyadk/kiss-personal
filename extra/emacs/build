@@ -48,4 +48,9 @@ esac
 setarch $_arch -R make
 make install
 
+rm -f "$1/usr/bin/ctags"
+rm -f "$1/usr/share/man/man1/ctags.1*"
+rm -f "$1/usr/share/info/info.info"
+rm -rf "$1/usr/share/applications"
+rm -rf "$1/usr/share/icons"
 rm -rf "$1/usr/lib/systemd"
