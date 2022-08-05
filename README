@@ -19,102 +19,54 @@ ________________________________________________________________________________
 [00] Repositories
 ________________________________________________________________________________
 
-* core ---------- Core packages ( symlink kiss-xorg/core )
-* extra --------- Optional packages ( symlink kiss-xorg/community & extra )
-* testing ------- Not stable build
+* core ---------- Core packages ( modified & additional core pkgs )
+* extra --------- Optional packages ( modified & additional extra pkgs )
 * bin ----------- Binary Executable packages
+
+Recommended KISS PATH
+-----
+export KISS_PATH=''
+# KISS PERSONAL
+KISS_PATH=$KISS_PATH:/var/db/kiss/kiss-personal/core
+KISS_PATH=$KISS_PATH:/var/db/kiss/kiss-personal/extra
+KISS_PATH=$KISS_PATH:/var/db/kiss/kiss-personal/bin
+# KISS XORG
+KISS_PATH=$KISS_PATH:/var/db/kiss/kiss-xorg/xorg
+KISS_PATH=$KISS_PATH:/var/db/kiss/kiss-xorg/extra
+KISS_PATH=$KISS_PATH:/var/db/kiss/kiss-xorg/community
+# GREPO
+KISS_PATH=$KISS_PATH:/var/db/kiss/grepo/core
+KISS_PATH=$KISS_PATH:/var/db/kiss/grepo/extra
+# OFFICIAL COMMUNITY & REPO
+KISS_PATH=$KISS_PATH:/var/db/kiss/repo-community/community
+KISS_PATH=$KISS_PATH:/var/db/kiss/repo/extra
+-----
 
 [01] Packages
 ________________________________________________________________________________
 
 [Core] -------------------------------------------------------------------------
 
-libfontenc     libXrender           xev
-libICE         libXScrnSaver        xf86-input-libinput
-libSM          libxshmfence         xf86-video-amdgpu
-libX11         libXslt              xf86-video-ati
-libXau         libXt                xf86-video-intel
-libxcb         libXtst              xf86-video-nouveau
-libXcomposite  libXxf86vm           xf86-video-vesa
-libXcursor     mesa                 xinit
-libxcvt        mkfontscale          xinput
-libXdamage     setxkbmap            xkbcomp
-libXdmcp       sowm                 xkeyboard-config
-libXext        st                   xorgproto
-libXfixes      tinyx                xorg-server
-libXfont       xauth                xorg-util-macros
-libXfont2      xbitmaps             xprop
-libXft         xcb-proto            xrandr
-libXi          xcb-util             xrdb
-libXinerama    xcb-util-cursor      xrectsel
-libxkbfile     xcb-util-image       xset
-libXmeta       xcb-util-keysyms     xsetroot
-libXmu         xcb-util-renderutil  xtrans
-libXpresent    xcb-util-wm
-libXrandr      xdpyinfo
+gcc*          libisl       libxslt*      xorg-server
 
 [Extra] ------------------------------------------------------------------------
 
-2bwm                   grabc                  poppler-data
-9wm                    graphviz               potrace
-abiword                gtk+3                  qt5
-alacritty              gtkmm3                 qt5-x11extras
-alttab-git             herbe                  rxvt-unicode
-appstream-glib         herbstluftwm           schismtracker
-atk                    hsetroot               sct
-atkmm                  i3                     sent
-autorandr              imlib2                 skippy-xd-git
-azpainter              inkscape               slock
-babl                   jansson                slock-paranoid-git
-bdfedit                jwm                    slop
-berry                  lemonbar               solvespace
-brownout               libXaw                 spectrwm
-bspwm                  libXft-bgra-git        spice-protocol
-cairo                  libXpm                 stalonetray
-cairomm                libdrm                 supertuxkart
-chromium               libepoxy               surf
-ctwm                   liberation-fonts       svkbd
-cwm                    libevdev               sx
-dillo                  libexecinfo            sxhkd
-dmenu                  libexif                sxiv
-dosbox                 libgsf                 tabbed
-double-conversion      libinput               tcl
-doxygen                libmypaint             tiff
-dragon-git             libpciaccess           tinywm
-dwm                    libptytty              tk
-dzen                   librewolf              tkdiff
-emacs                  librsvg                vimb
-emacs-alpha            libsigc++              vimb-git
-exiv2                  libsoup                webkit2gtk
-farbfeld               libsoup3               windowmaker
-feh                    libspectre             wine
-ffmpeg                 libtasn1               winetricks
-firefox                libva                  wv
-fltk                   libva-utils            wyeb
-frankenwm              libxaw3d               x11fs
-freeglut               libxkbcommon           x11vnc
-freetype-harfbuzz      lxappearance           xbanish
-fribidi                maim                   xbill
-fvwm                   mesa                   xcb-util-xrm
-gcr                    mplayer                xclip
-gdk-pixbuf             mpv                    xcompmgr
-gegl                   mtdev                  xdo
-gexiv2                 mypaint-brushes        xdotool
-ghc                    neon                   xf86-video-fbdev
-ghc-bootstrap          netsurf-gtk3           xf86-video-qxl
-giflib                 nsxiv                  xf86-video-vmware
-gimp                   openal-soft            xhost
-glew                   otf2bdf                xkill
-glib-networking        p11-kit                xlennart-git
-glibmm                 palemoon               xmodmap
-glmark2                pango                  xnotify
-glu                    pangomm                xrandr-invert-colors
-gnuplot                perl-netsurf           xsel
-gobject-introspection  picom                  xssstate
-godot                  picom-git              xwm
-goffice                pixman
-gperf                  polybar
+emacs        feh            firefox        ghc-bootstrap
+fd           findutils      ghc
 
-Bin] --------------------------------------------------------------------------
+[Bin] --------------------------------------------------------------------------
 
-ghcup-bin  opam-bin
+discord      google-chrome-dev  opam-bin
+
+
+[02] Details modified pkgs (*)
+________________________________________________________________________________
+
+1. GCC
+Add JIT support for GCC
+
+2. Emacs
+Added native-compilation & json support
+
+3. libxlst
+Updated version to 1.3.5
