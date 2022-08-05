@@ -1,4 +1,0 @@
-#!/bin/sh
-
-install -Dm755 x86_64-linux-ghcup-0.1.17.8 \
-    "$1/usr/bin/ghcup"
