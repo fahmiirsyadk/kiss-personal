@@ -23,24 +23,7 @@ ________________________________________________________________________________
 * extra --------- Optional packages ( modified & additional extra pkgs )
 * bin ----------- Binary Executable packages
 
-Recommended KISS PATH
------
-export KISS_PATH=''
-# KISS PERSONAL
-KISS_PATH=$KISS_PATH:/var/db/kiss/kiss-personal/core
-KISS_PATH=$KISS_PATH:/var/db/kiss/kiss-personal/extra
-KISS_PATH=$KISS_PATH:/var/db/kiss/kiss-personal/bin
-# KISS XORG
-KISS_PATH=$KISS_PATH:/var/db/kiss/kiss-xorg/xorg
-KISS_PATH=$KISS_PATH:/var/db/kiss/kiss-xorg/extra
-KISS_PATH=$KISS_PATH:/var/db/kiss/kiss-xorg/community
-# GREPO
-KISS_PATH=$KISS_PATH:/var/db/kiss/grepo/core
-KISS_PATH=$KISS_PATH:/var/db/kiss/grepo/extra
-# OFFICIAL COMMUNITY & REPO
-KISS_PATH=$KISS_PATH:/var/db/kiss/repo-community/community
-KISS_PATH=$KISS_PATH:/var/db/kiss/repo/extra
------
+[ Read KISS_PATH for path recommendation ]
 
 [01] Packages
 ________________________________________________________________________________
