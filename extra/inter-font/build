@@ -1,8 +1,8 @@
 #!/bin/sh -e
 
-unzip Inter-VERSION.zip
+unzip Inter-VERSION.zip -d Inter
 
-cd "Inter-VERSION"
+cd 'Inter'
 
 install -d "$1/usr/share/fonts/inter"
 install -m644 -t "$1/usr/share/fonts/inter" \
