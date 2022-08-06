@@ -1,0 +1,11 @@
+#!/bin/sh -e
+
+unzip Inter-VERSION.zip
+
+cd "Inter-VERSION"
+
+install -d "$1/usr/share/fonts/inter"
+install -m644 -t "$1/usr/share/fonts/inter" \
+    'Inter Hinted for Windows'/Desktop/*.ttf
+install -Dm644 LICENSE.txt \
+    "$1/usr/share/licenses/inter-font/LICENSE.txt"
