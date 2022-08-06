@@ -1,6 +1,6 @@
 #!/bin/sh -e
 
-unzip Inter-VERSION.zip -d Inter
+unzip 'Inter-3.19.zip' -d Inter
 
 cd 'Inter'
 
