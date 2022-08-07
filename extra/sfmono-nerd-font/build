@@ -1,0 +1,8 @@
+#!/bin/sh -e
+
+unzip 'main.zip'
+
+cd SFMono-Nerd-Font-Ligaturized-main
+
+install -dm755          "$1/usr/share/fonts/sfmono-nerd"
+install -Dm644 -- *.otf "$1/usr/share/fonts/sfmono-nerd"
